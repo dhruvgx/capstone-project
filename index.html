@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://www.amazon.com/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone | Capstone Project</title>
+    
+    <!-- Tailwind CSS CDN - This allows your styling to work instantly -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+      /* Prevents the 'flash' of white before the app loads */
+      body {
+        margin: 0;
+        background-color: #f3f4f6; 
+      }
+    </style>
+  </head>
+  <body>
+    <!-- This is the 'hook' where your React code will attach -->
+    <div id="root"></div>
+
+    <!-- 
+      IMPORTANT: If your main.jsx is sitting right next to this file, use "/main.jsx". 
+      If it is inside a 'src' folder, change this to "/src/main.jsx" 
+    -->
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>
